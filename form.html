@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dado Cafe Order Form</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipe.html">Recipe</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+
+    
+    <h1>Dado Cafe</h1>
+    <h2>Lunch Order Form</h2>
+
+    <p class="lunch specials">
+        Dado Tea Lunch Daily Specials <br>
+        $9.95 plus tax (extra charges listed in form) <br>
+        Includes lunch, snack, and drinks <br> 
+    </p>
+    </html>
+    
+    
+    
+    <table>
+        
+        <thead>
+            
+            <tr>
+                <th> Sunday </th>
+                <th> Monday </th>
+                <th> Tuesday </th>
+                <th> Wesnesday </th>
+                <th> Thursday </th>
+                <th> Friday </th>
+                <th> Saturday </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> closed </td>
+                <td> 11:00 AM - 3:00 PM  </td>
+                <td> 11:00 AM - 3:00 PM </td>
+                <td> 11:00 AM - 3:00 PM </td>
+                <td> 11:00 AM - 3:00 PM </td>
+                <td> 11:00 AM - 3:00 PM </td>
+                <td> Closed </td>
+            </tr>
+
+            <tr>    
+                <td colspan="7"> Fall 2021 Hours end December 1, 2021 </td>
+            </tr>
+        </tbody>
+    </table>
+    <form name="lunchOrder" method="POST" data-netlify="true"></form>
+    
+    
+    <fieldset>
+        <legend> Customer Information </legend>
+        
+        
+        <label for="firstName"> First Name </label> <br>
+        
+        <input type="text" id="firstName" required="required" placeholder="First Name" autofocus><br>
+
+
+        <label for="lastName"> Last Name </label> <br/ >
+        <input type="text" id="lastName" required="required" placeholder="Last Name"><br>
+
+
+        <label for="email"> Email </label> <br/ >
+        <input type="text" id="email" required="required" placeholder="Email"><br>
+
+
+        <label for="phone"> Phone </label> <br/ >
+        <input type="text" id="phone" required="required" placeholder="Phone"><br>
+
+                
+        <p>Delivery Method</p>
+        <label for="eatIn"> Eat In </label>
+        <input type="radio" name="delivery" id="eatIn" value="eatIn">
+
+
+        <label for="toGo"> Take Out </label>
+        <input type="radio" name="delivery" id="toGo" value="toGo">
+
+
+        <label for="deliverTo"> Deliver </label>
+        <input type="radio" name="delivery" id="deliverTo" value="deliverTo">
+
+    </fieldset>
+
+    <fieldset>
+        <legend> Sandwiches </legend>
+
+        <h3> Monday </h3>
+        <input type="radio" id="chickenSalad" name="Sandwich" value="chickenSalad" > 
+        <label for="chickenSalad"> Chicken Salad </label><br>
+        <input type="radio" id="tomatoMozzarella" name="sandwich" value="tomatoMozzarella" >
+        <label for="tomatoMozzarella"> Tomato Mozarella </label><br>
+
+        <h3> Tuesday </h3>
+        <input type="radio" id="greekWrap" name="sandwich" value="greekWrap" > 
+        <label for="greekWrap"> Greek Salad Wrap </label><br>
+        <input type="radio" id="totoWrap" name="sandwich" value="totoWrap" >
+        <label for="totoWrap"> Toto Wrap </label><br>
+
+        <h3> Wednesday </h3>
+        <input type="radio" id="redPepperHummus" name="sandwich" value="redPepperHummus" > 
+        <label for="redPepperHummus"> Red Pepper Hummus </label><br>
+        <input type="radio" id="roastedTurkey" name="sandwich" value="roastedTurkey" >
+        <label for="roastedTurkey">Roasted Turkey</label><br>
+
+        <h3> Thursday </h3>
+        <input type="radio" id="carrotGingerHummus" name="sandwich" value="carrotGingerHummus" > 
+        <label for="carrotGingerHummus"> Carrot-Ginger Hummus Wrap</label> <br>
+        <input type="radio" id="eggSalad" name="sandwich" value="eggSalad" >
+        <label for="eggSalad">Egg Salad</label><br>
+
+        <h3> Friday </h3>
+        <input type="radio" id="dadoWrap" name="sandwich" value="dadoWrap" > 
+        <label for="dadoWrap"> Wrap </label><br>
+        <input type="radio" id="tunaSalad" name="sandwich" value="tunaSalad" >
+        <label for="tunaSalad"> Tuna Salad </label> <br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend> Snacks </legend>
+
+        <input type="radio" id="apple" name="snack" value="apple">
+        <label for="apple"> Apple </label> <br/ >
+
+        <input type="radio" id="banana" name="snack" value="banana">
+        <label for="banana"> Banana </label><br/ >
+
+        <input type="radio" id="potatoChips" name="snack" value="potatoChips">
+        <label for="potatoChips"> Potato Chips </label><br/ >
+
+    </fieldset>
+
+    <fieldset>
+        <legend> Drink </legend>
+        <label for="drinks"></label>
+
+        <p> Choose from ice or hot black tea, green tea, coffee, or bubble tea </p>
+
+        <select name="drinks" id="drinks">
+            <outgroup label="black tea">
+                <option> Hot Black Tea - Keenum </option>
+                <option> Hot Black Tea - Decaf </option>
+                <option> Iced Black Tea - Keenum</option>
+                <option> Iced Black Tea - Decaf</option>
+            </outgroup>
+
+            <outgroup label="green tea"> 
+                <option> Hot Green Tea - Sencha</option>
+                <option> Hot Green Tea - Decaf</option>
+                <option> Iced Green Tea - Sencha</option>
+                <option> Iced Green Tea - Decaf</option>
+            </outgroup>
+
+            <outgroup label="coffee">
+                <option> Hot Coffee </option>
+                <option> Hot Coffee Decaf </option>
+                <option> Iced Coffee </option>
+                <option> Iced Coffee Decaf </option>
+            </outgroup>
+
+            <outgroup label="bubbleTea">
+                <option> Bubble Tea (&dollar;1.50 extra) </option>
+            </outgroup>
+        </select>
+        <br>
+
+        <input type="checkbox" id="lgDrink" name="lgDrink" value="lgDrink">
+        <label for="lgDrink"> Large Drink (75&cent; extra ) </label><br>
+
+    </fieldset>
+    <p>
+    <button class="formBtn"> Place Order </button>   
+    <button class="formBtn"> Reset Form </button>  </button>
+    </p>
+<body/>
