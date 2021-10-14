@@ -1,0 +1,53 @@
+
+
+/* Made for index.css */
+
+body {
+background-color: deepskyblue;
+font-family:'Times New Roman', Times, serif ;
+}
+
+#main-nav{
+background-color: powderblue;
+font-weight: bold;
+font-variant-caps: all-small-caps;
+font-size: 1.3rem;
+}
+a:link{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+h1, h2{
+font-family: 'Times New Roman', Times, serif;
+color: firebrick;
+font-variant :small-caps;
+}
+
+h1{
+    font-size:2.5rem ;
+    text-shadow: 1.5px 1.5px ;
+}
+
+h2{
+    font-size: 1.8rem;
+    color: rgb(250, 6, 6);
+    font-style: initial;
+    font-variant: unset;
+}
+
+
+p{
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure ;}
+
+.work-class{
+    font-size: 1.2rem;
+}
+ul, li{
+    list-style-type: none;
+}

@@ -1,0 +1,36 @@
+/* Made for about.css */
+
+body{
+    background-color: lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-nav{
+    background-color: whitesmoke;
+}
+a:link{
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+}
+
+h1, h2{
+    color:maroon
+}
+
+h1{
+    font-weight:initial
+    text-shadow: 1.8px 1.8px;
+    font-size: 2.1rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-family: fantasy;
+    font-weight: unset;
+    color: rebeccapurple;
+}
+p{
+    font-size: 1.3rem;
+}
