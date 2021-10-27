@@ -13,12 +13,31 @@ font-weight: bold;
 font-variant-caps: all-small-caps;
 font-size: 1.3rem;
 }
+
+#main-nav a:link {
+    color: rgb(240, 246, 255);
+}
+
+#main-nav a:visited {
+    color: blueviolet;
+}
+
+#main-nav a:hover {
+    color: crimson;
+    background-color: darkblue;
+}
+
 a:link{
     text-decoration: none;
 }
 
 nav ul{
     list-style-type: none;
+}
+header {
+    height: 80vh;
+    background-image:url(../img/photo-1583473848882-f9a5bc7fd2ee.jpg);
+    background-repeat: no-repeat;
 }
 
 h1, h2{
@@ -31,6 +50,8 @@ h1{
     font-size:2.5rem ;
     text-shadow: 1.5px 1.5px ;
 }
+
+
 
 h2{
     font-size: 1.8rem;
