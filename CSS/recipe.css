@@ -1,6 +1,61 @@
-/* made for recipe.CSS*/
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
 
-body {
-    background-color: lawngreen;
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+
+nav ul{
+    list-style-type: none;
 }
 
+a:link {
+    color: lightcoral;
+}
+
+a:visited {
+    color: lightgreen;
+}
+a:hover {
+    color: mediumvioletred;
+    background-color: rgb(18, 196, 209);
+}
+
+ h1, h2 {
+     font-family: 'Times New Roman', Times, serif;
+     color: lightblue;
+ }
+
+ body {
+    background-color: rgb(218, 141, 40) ;
+    background-image:url(/img/baking-goods.jpg) ;
+    background-size: contain;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: rgb(255, 244, 244);
+ }
+
+ #wrapper {
+     width: 50%;
+     background-color: rgba(70, 131, 180, 0.63);
+     margin: 0 auto;
+     margin-top: 32px 0;
+     padding: 1% 5%;
+     border-radius: 10%;
+ }
+
+ nav li{
+     display: inline;
+     padding-right: 5%;
+     font-variant-caps: all-petite-caps;
+ }
+ .cake {
+     width: 400px;
+     border: 11px double rgb(36, 0, 119) ;
+     padding: 6px;
+ }
