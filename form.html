@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dado Cafe Order Form</title>
+    <link rel="stylesheet" href="/css/form.css">
 </head>
+
+
 <body>
-    <nav>
+
+    <div id="wrapper">
+
+    <nav id="main-nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -18,15 +24,15 @@
 
 
     
-    <h1>Dado Cafe</h1>
-    <h2>Lunch Order Form</h2>
-
-    <p class="lunch specials">
-        Dado Tea Lunch Daily Specials <br>
-        $9.95 plus tax (extra charges listed in form) <br>
-        Includes lunch, snack, and drinks <br> 
-    </p>
-    </html>
+    <main>
+        <h1>Dado Cafe</h1>
+        <h2>Lunch Order Form</h2>
+        <p class="lunch specials">
+            Dado Tea Lunch Daily Specials <br>
+            $9.95 plus tax (extra charges listed in form) <br>
+            Includes lunch, snack, and drinks <br>
+        </p>
+    </main>
     
     
     
@@ -47,13 +53,13 @@
 
         <tbody>
             <tr>
-                <td> closed </td>
+                <td class="hours" > closed </td>
                 <td> 11:00 AM - 3:00 PM  </td>
                 <td> 11:00 AM - 3:00 PM </td>
                 <td> 11:00 AM - 3:00 PM </td>
                 <td> 11:00 AM - 3:00 PM </td>
                 <td> 11:00 AM - 3:00 PM </td>
-                <td> Closed </td>
+                <td class="hours" > Closed </td>
             </tr>
 
             <tr>    
@@ -156,30 +162,30 @@
         <p> Choose from ice or hot black tea, green tea, coffee, or bubble tea </p>
 
         <select name="drinks" id="drinks">
-            <optgroup label="black tea">
+            <outgroup label="black tea">
                 <option> Hot Black Tea - Keenum </option>
                 <option> Hot Black Tea - Decaf </option>
                 <option> Iced Black Tea - Keenum</option>
                 <option> Iced Black Tea - Decaf</option>
-            </optgroup>
+            </outgroup>
 
-            <optgroup label="green tea"> 
+            <outgroup label="green tea"> 
                 <option> Hot Green Tea - Sencha</option>
                 <option> Hot Green Tea - Decaf</option>
                 <option> Iced Green Tea - Sencha</option>
                 <option> Iced Green Tea - Decaf</option>
-            </optgroup>
+            </outgroup>
 
-            <optgroup label="coffee">
+            <outgroup label="coffee">
                 <option> Hot Coffee </option>
                 <option> Hot Coffee Decaf </option>
                 <option> Iced Coffee </option>
                 <option> Iced Coffee Decaf </option>
-            </optgroup>
+            </outgroup>
 
-            <optgroup label="bubbleTea">
+            <outgroup label="bubbleTea">
                 <option> Bubble Tea (&dollar;1.50 extra) </option>
-            </optgroup>
+            </outgroup>
         </select>
         <br>
 
@@ -189,6 +195,14 @@
     </fieldset>
     <p>
     <button class="formBtn"> Place Order </button>   
-    <button class="formBtn"> Reset Form </button>  </button>
+    <button class="reset"> Reset Form</button>
     </p>
-<body/>
+    
+    </form>
+
+    </div>
+
+
+</body>
+
+</html>
