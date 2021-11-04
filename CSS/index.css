@@ -1,6 +1,12 @@
 
 
 /* Made for index.css */
+/*Google Fonts
+
+font-family: 'Righteous', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Teko', sans-serif;
+*/
 
 body {
 background-color: deepskyblue;
@@ -41,7 +47,6 @@ header {
 }
 
 h1, h2{
-font-family: 'Times New Roman', Times, serif;
 color: firebrick;
 font-variant :small-caps;
 }
@@ -54,20 +59,21 @@ h1{
 
 
 h2{
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: rgb(250, 6, 6);
     font-style: initial;
+    font-family: 'Teko', sans-serif;
     font-variant: unset;
 }
 
 
 p{
-    font-size: 1.4rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-family: 'Righteous', cursive;
     color: azure ;}
 
 .work-class{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 ul, li{
     list-style-type: none;

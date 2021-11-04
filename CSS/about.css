@@ -1,13 +1,27 @@
 /* Made for about.css */
+/*google fonts
+
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Graduate', cursive;
+font-family: 'Share Tech Mono', monospace; */
 
 body{
-    background-color: lightsteelblue;
+    background-color: rgb(2, 2, 2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#main-nav{
-    background-color: whitesmoke;
+#main-nav a:link{
+    color: wheat;
 }
+
+#main-nav a:visited {
+    color: cyan;
+}
+
+#main-nav a:hover{
+    color: tomato;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -16,21 +30,43 @@ nav ul{
 }
 
 h1, h2{
-    color:maroon
+    font-family: 'Graduate', cursive;
+    color: honeydew;
 }
 
 h1{
-    font-weight:initial
+    font-weight: bold;
     text-shadow: 1.8px 1.8px;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
 }
 
 h2{
-    font-size: 1.8rem;
-    font-family: fantasy;
-    font-weight: unset;
-    color: rebeccapurple;
+    font-size: 2.3rem;
+    font-weight: bolder;
 }
-p{
-    font-size: 1.3rem;
+
+body {
+    font-family: 'Share Tech Mono', monospace; 
+    font-size: 1.6rem;
+    color: gold;
+ }
+ 
+.bio-pic {
+    max-width: 12%;
+    margin-right: 50px;
+    border: 4px dashed rgb(253, 253, 253);
+    padding: 12px;
+    border-radius: 80%;
+    float: left;
+    shape-outside: margin-box;
+}
+
+hr {
+    clear: both;
+}
+
+.faves {
+    float: right;
+    width: 50%;
+    margin-left:-10% ;
 }
