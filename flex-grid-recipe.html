@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Vanilla Cake Recipe </title>
-    <link rel="stylesheet" href="/CSS/recipe.css">
+    <link rel="stylesheet" href="/CSS/flex-grid.css">
     <link rel="icon" href="favicon/BirthdayCake.128.png">
 </head>
 <body>
@@ -13,14 +13,17 @@
     <div id="wrapper">
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="recipe.html">Recipe</a></li>
-            <li><a href="form.html">Form</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/recipe.html">Recipe</a></li>
+            <li><a href="/form.html">Form</a></li>
             <li><a href="/flex-grid-recipe.html">Flexbox & Grid</a>
         </ul>
     </nav>
+
+    <main class="container" >
     
+    <header class="row1-head" >
     <h1>Best Vanilla Cake</h1>
     <p>    With its outstanding vanilla flavor, pillowy soft crumb, and creamy vanilla buttercream, this is truly the best vanilla cake I’ve ever had. Make sure you read through the recipe and recipe notes before beginning. This recipe yields approximately 8 cups of batter which is helpful if you need this batter for different cake pans and conversions.
     </p>
@@ -31,6 +34,11 @@
         <li>Total Time: 4 hours</li> 
         <li>Yield: 12-14 servings</li> 
     </ul>
+
+    </header>
+
+    <article class="row2-left" >
+
     <h2>Ingredients </h2>
     <ul>
         <li>    3 &frac23; cups (433g) cake flour (spoon & leveled)
@@ -52,7 +60,10 @@
         <li>    1 &frac12; cups (360ml) buttermilk, at room temperature*
         </li>
     </ul>
+</article>
 
+
+<article class="row2-right">
     <h2>Vanilla Buttercream</h2>
     <ul>
         <li>    1 and 1/2 cups (345g) unsalted butter, softened to room temperature
@@ -66,8 +77,14 @@
         <li>    1/8 teaspoon salt
         </li>
     </ul>
+</article>
+
+    <article class="row3-center">
     <img class ="cake" src="img/cake.jpg" alt="simple vanilla cake covered in buttercream"> <class id="cake">
     <p>Image attribution:<a href="https://commons.wikimedia.org/wiki/File:Layered_cake_with_cream.JPG">Nillerdk</a>,<br> <p><a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons </p>
+    </article>
+
+    <article class="row4-left">
     <h3>Instructions</h3>
     <ol>
         <li>   Preheat oven to 350°F (177°C). Grease three 9-inch cake pans, line with parchment paper, then grease the parchment paper. Parchment paper helps the cakes seamlessly release from the pans.
@@ -87,12 +104,16 @@
         <li>    Cover leftover cake tightly and store in the refrigerator for up to 5 days
         </li> <br>
     </ol>
+    </article>
+    <article class="row5-left">
     <p>&copy;Copyright 2021 Sallys Baking Addiction • Website managed by SiteCare.com • Website Accessibility Statement • Privacy Policy • Disclosure Policy</p>
 
 <a href="https://sallysbakingaddiction.com/vanilla-cake/" target="_blank"> Sally's Baking Addictions' vanilla cake recipe </a>
 <p> Vanilla cake recipe video walkthrough!</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CtqrvXEZktg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+</article>
+</main>
 </div>
 </body>
 </html>

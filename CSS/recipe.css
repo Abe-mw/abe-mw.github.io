@@ -41,12 +41,12 @@ a:hover {
  }
 
  #wrapper {
-     width: 50%;
+     width: 70%;
      background-color: rgba(70, 131, 180, 0.63);
      margin: 0 auto;
-     margin-top: 32px 0;
+     margin-top:40px 0;
      padding: 1% 5%;
-     border-radius: 10%;
+     border-radius: 10px;
  }
 
  nav li{
@@ -56,6 +56,6 @@ a:hover {
  }
  .cake {
      width: 400px;
-     border: 11px double rgb(36, 0, 119) ;
+     border: 10px double rgb(36, 0, 119) ;
      padding: 6px;
  }

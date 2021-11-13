@@ -1,0 +1,126 @@
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
+
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+
+nav ul{
+    list-style-type: none;
+}
+
+a:link {
+    color: rgb(122, 121, 218);
+}
+
+a:visited {
+    color: rgb(255, 6, 6);
+}
+a:hover {
+    color: mediumvioletred;
+    background-color: rgb(18, 196, 209);
+}
+
+ h1, h2, h3 {
+     font-family: 'Times New Roman', Times, serif;
+     font-variant-caps: all-small-caps;
+     color: rgb(245, 245, 245);
+     font-size: 3.4rem;
+ }
+ h1{
+     font-size: 5rem;
+ }
+ body {
+    background-color: rgb(218, 141, 40) ;
+    background-image:url(/img/baking-goods.jpg) ;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(206, 104, 104);
+ }
+
+ #wrapper {
+     width: 70%;
+     background-color: rgba(70, 131, 180, 0.63);
+     margin: 0 auto;
+     margin-top:40px 0;
+     padding: 1% 5%;
+     border-radius: 10px;
+ }
+
+ nav li{
+     display: inline;
+     padding-right: 5%;
+     font-variant-caps: all-petite-caps;
+ }
+ .cake {
+     width: 540px;
+     border: 10px double rgb(245, 245, 245) ;
+     padding: 6px;
+ }
+
+ main{
+     height: 10%;
+     padding: 10px 20px;
+     border-radius: 10px;
+     margin: 10px auto;
+     background-color: rgb(49, 4, 155);
+     color: rgb(237, 253, 11);
+ }
+
+ nav{
+     height: 50px;
+     background-color: darkblue;
+     margin-bottom: 50px;
+     font-size: 1.8rem;
+ }
+
+ nav ul{
+     display: flex;
+     justify-content: space-between;
+     font-variant-caps: all-small-caps;
+     list-style-type: none;
+ }
+
+ .container{
+     display: grid;
+     grid-template-areas: 
+     "header header header header header"
+     "specs specs seperation supplies supplies"
+     "cake cake cake cake cake"
+     "instructions instructions instructions instructions instructions"
+     "footer footer footer footer video"
+ }
+
+ .row1-head{
+     grid-area: header;
+     margin-bottom: 20px;
+ }
+
+ .row2-left{
+     grid-area: specs;
+     padding-left: 30px;
+ }
+
+ .row2-right{
+     grid-area: supplies;
+     padding-right: ;
+ }
+ .row3-center{
+     grid-area: cake;
+     justify-self: center;
+ }
+
+ .row4-left{
+     grid-area: instructions;
+     padding-left: 20px;
+ }
+ .row5-left{
+     grid-area: footer;
+     justify-self: left;
+ }
