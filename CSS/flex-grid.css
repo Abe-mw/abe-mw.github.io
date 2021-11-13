@@ -123,4 +123,5 @@ a:hover {
  .row5-left{
      grid-area: footer;
      justify-self: left;
+     font-size: 1.1rem;
  }
