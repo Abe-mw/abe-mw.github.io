@@ -59,3 +59,37 @@ a:hover {
      border: 10px double rgb(36, 0, 119) ;
      padding: 6px;
  }
+
+ @media ( min-witdh:600px ) {
+     
+
+    body{
+        font-size: 1rem;
+    }   
+
+    #wrapper {
+        background-image: none;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+    img{
+        border: none;
+        max-width: 70%;
+
+    }
+
+    hr{
+        display: none;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        padding-left: 15px;
+    }
+
+}
