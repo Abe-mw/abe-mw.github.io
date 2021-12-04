@@ -37,7 +37,7 @@ h1, h2{
 h1{
     font-weight: bold;
     text-shadow: 1.8px 1.8px;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h2{
@@ -59,6 +59,7 @@ body {
     border-radius: 80%;
     float: left;
     shape-outside: margin-box;
+
 }
 
 hr {
@@ -69,4 +70,138 @@ hr {
     float: right;
     width: 50%;
     margin-left:-10% ;
+}
+@media ( min-witdh:600px ) {
+     
+
+    body{
+        font-size: 1rem;
+    }   
+
+    #wrapper {
+        background-image: none;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+    img{
+        border: none;
+        max-width: 70%;
+
+    }
+
+    hr{
+        display: none;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        padding-left: 15px;
+    }
+
+}
+
+.bio {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+
+
+}
+
+.heading {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear .8s;
+    -moz-animation: fadeIn linear .8s;
+    -o-animation: fadeIn linear .8s;
+    -ms-animation: fadeIn linear .8s;
+}
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+
+}
+
+.faves {
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+}
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+
+ 
 }
