@@ -1,0 +1,134 @@
+/*For the final-project.css*/
+
+nav ul{
+    list-style-type: none;
+}
+
+a:link {
+    color: midnightblue;
+}
+
+a:visited {
+    color: orangered;
+}
+a:hover {
+    color: mediumvioletred;
+    background-color: rgb(18, 196, 209);
+}
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+body {
+    background-color: rgb(245, 241, 241) ;
+    background-image: url(/img/road.jpg) ;
+    background-size: contain;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: purple;
+}
+
+#finale {
+    width: fit-content;
+    background-color: rgba(255, 255, 0, 0.596);
+    font-family: 'Righteous', cursive;
+
+    margin: 0 auto;
+    margin-top:40px 0;
+    padding: 1% 5%;
+    border-radius: 10px;
+}
+#customs{
+    color: black;
+}
+
+h1{
+    font-size: 3.3rem;
+}
+h2{
+    font-size: 2.7rem;
+}
+h1,h2{
+    color: black;
+    font-variant-caps: all-small-caps;
+    text-shadow: yellow 2px .8px ;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10%;
+    background-color: black;
+    color: yellow;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    box-shadow: 1.8px 2px ;
+    cursor: pointer;
+}
+.heading {
+    animation: fadeIn linear 1.8s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+
+
+
+@media ( min-witdh:600px ) {
+     
+
+    body{
+        font-size: 1rem;
+    }   
+
+    #finale {
+        background-image: none;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+    img{
+        border: none;
+        max-width: 70%;
+
+    }
+
+    hr{
+        display: none;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        padding-left: 15px;
+    }
+
+}
